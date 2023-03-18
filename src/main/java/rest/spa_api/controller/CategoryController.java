@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import rest.spa_api.entity.CategoryEntity;
-import rest.spa_api.entity.UsersEntity;
 import rest.spa_api.service.CategoryService;
 
   @RestController
