@@ -1,5 +1,6 @@
 package rest.spa_api.entity;
 
+import javax.validation.constraints.Pattern;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -17,7 +18,7 @@ public class CategoryEntity {
   @Id
   @Indexed
   private Integer id;
-
+  @Pattern(regexp = "[^0-9]*")
   private String name;
 
   public Integer getId() {
